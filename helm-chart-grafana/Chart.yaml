@@ -25,5 +25,5 @@ appVersion: "1.0"
 dependencies:
   - name: grafana
     version: "grafana-8.6.0"
-    repository: "https://github.com/grafana/helm-charts/tree/main/charts/grafana"
+    repository: "https://github.com/grafana/charts/grafana"
     
