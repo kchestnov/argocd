@@ -782,6 +782,9 @@ grafana:
   ## dashboards per provider, use provider name as key.
   ##
   dashboards:
+    github:
+      test-dashboard:
+        url: https://github.com/kchestnov/argocd-examples-kchestnov/dashboards/test.json
     # default:
     #   some-dashboard:
     #     json: |
@@ -792,8 +795,6 @@ grafana:
     #     gnetId: 2
     #     revision: 2
     #     datasource: Prometheus
-    test-dashboard:
-      url: https://github.com/kchestnov/argocd-examples-kchestnov/dashboards/test.json
     #   local-dashboard-base64:
     #     url: https://example.com/repository/test-b64.json
     #     token: ''
