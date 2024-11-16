@@ -784,7 +784,7 @@ grafana:
   dashboards:
     github:
       test-dashboard:
-        url: https://github.com/kchestnov/argocd-examples-kchestnov/dashboards/test.json
+        url: https://raw.githubusercontent.com/kchestnov/argocd-examples-kchestnov/refs/heads/main/dashboards/test.json
     # default:
     #   some-dashboard:
     #     json: |
