@@ -312,7 +312,7 @@ alertmanager:
           mrkdwn_in: ["fallback", "pretext", "text"]
           pretext: '{{ template "slack.default.pretext" . }}'
           text: '{{ template "slack.default.text" . }}'
-          title: '{{ template "slack.default.title" . }}'
+          title: '{{ template "slack.kchesdetnov.title" . }}'
           title_link: '{{ template "slack.default.titlelink" . }}'
           actions:
             - type: button
@@ -320,9 +320,9 @@ alertmanager:
               url: https://localhost:3000
           fields:
             - title: Alert starts
-              value: {{ ((index .Alerts 0).StartsAt.Add -600000000000 ).Unix }}000
+              value: '{{ ((index .Alerts 0).StartsAt.Add -600000000000 ).Unix }}000'
             - title: Alert ends
-              value: {{ ((index .Alerts 0).StartsAt.Add +600000000000 ).Unix }}000
+              value: '{{ ((index .Alerts 0).StartsAt.Add +600000000000 ).Unix }}000'
 
 
     route:
