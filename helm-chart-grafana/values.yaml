@@ -768,7 +768,7 @@ grafana:
       providers:
       - name: 'github'
         orgId: 1
-        folder: ''
+        folder: 'github'
         type: file
         disableDeletion: false
         editable: false
