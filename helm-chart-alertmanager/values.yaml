@@ -312,7 +312,7 @@ alertmanager:
           mrkdwn_in: ["fallback", "pretext", "text"]
           pretext: '{{ template "slack.default.pretext" . }}'
           text: '{{ template "slack.default.text" . }}'
-          title: '{{ template "slack.kchesdetnov.title" . }}'
+          title: '{{ template "slack.default.title" . }}'
           title_link: '{{ template "slack.default.titlelink" . }}'
           actions:
             - type: button
