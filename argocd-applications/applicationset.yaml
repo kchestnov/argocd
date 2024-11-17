@@ -1,0 +1,29 @@
+apiVersion: argoproj.io/v1alpha1
+kind: ApplicationSet
+metadata:
+  name: local-dev
+  namespace: argocd
+spec:
+  goTemplate: true
+  goTemplateOptions: ["missingkey=error"]
+  generators:
+  - list:
+      elements:
+      - application: grafana
+        namespace: default
+        targetRevision: HEAD
+      - application: alertmanager
+        namespace: default
+        targetRevision: HEAD
+  template:
+    metadata:
+      name: 'kchestnov-{{.application}}'
+    spec:
+      project: default
+      source:
+        repoURL: https://github.com/kchestnov/argocd-examples-kchestnov
+        targetRevision: '{{.targetRevision}}'
+        path: 'helm-chart-{{.application}}'
+      destination:
+        server: "https://kubernetes.default.svc"
+        namespace: '{{.namespace}}'
