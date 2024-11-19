@@ -50,7 +50,6 @@ nameOverride: ""
 
 # -- Overrides the fully qualified app name.
 fullnameOverride: ""
-`z
 # -- Overrides the namespace name.
 namespaceOverride: ""
 
