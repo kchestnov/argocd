@@ -9,10 +9,10 @@ spec:
   generators:
   - list:
       elements:
-      - application: grafana
+      - application: alertmanager
         namespace: default
         targetRevision: HEAD
-      - application: alertmanager
+      - application: grafana-operator
         namespace: default
         targetRevision: HEAD
   template:
