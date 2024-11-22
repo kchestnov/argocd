@@ -1,0 +1,13 @@
+{
+  "id": 3,
+  "panels": [],
+  "refresh": "5s",
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "timezone": "browser",
+  "title": "Simple Dashboard 2",
+  "uid": "af23f96c-b523-4651-839e-18142f6d91fd",
+  "version": 4
+}
