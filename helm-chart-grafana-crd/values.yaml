@@ -1,0 +1,35 @@
+dashboards:
+- folder: folder1
+  dashboards:
+    - uid: 112233
+      json: >
+        {
+          "title": "Simple Dashboard",
+          "timezone": "browser",
+          "refresh": "5s",
+          "panels": [],
+          "time": {
+            "from": "now-6h",
+            "to": "now"
+          },
+          "folderId": "5", 
+          "folderUid": "be4pknypj7oqob", 
+          "folderTitle": "example-folder", 
+          "folderUrl": "/dashboards/f/be4pknypj7oqob/example-folder"
+        }
+    - uid: 112234
+      json: >
+        {
+          "title": "Simple Dashboard 2",
+          "timezone": "browser",
+          "refresh": "5s",
+          "panels": [],
+          "time": {
+            "from": "now-6h",
+            "to": "now"
+          },
+          "folderId": "5", 
+          "folderUid": "be4pknypj7oqob", 
+          "folderTitle": "example-folder", 
+          "folderUrl": "/dashboards/f/be4pknypj7oqob/example-folder"
+        }

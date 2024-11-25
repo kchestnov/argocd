@@ -1,0 +1,20 @@
+{{- range .Values.dashboards }}
+{{- range .dashboards }}
+{{- $jsonContent := .json | fromJson }}
+---
+apiVersion: grafana.integreatly.org/v1beta1
+kind: GrafanaDashboard
+metadata:
+  {{- $folderTitle := $jsonContent.folderTitle | lower | replace " " "-" }}
+  {{- $title := $jsonContent.title | lower | replace " " "-" }}
+  name: {{ printf "%s-%s" $folderTitle $title }}
+spec:
+  resyncPeriod: 30s
+  instanceSelector:
+    matchLabels:
+      dashboards: "grafana"
+  folder: {{ $jsonContent.folderTitle | quote }}
+  json: >
+{{- .json | nindent 4 }}
+{{- end }}
+{{- end }}
