@@ -12,7 +12,7 @@ spec:
   resyncPeriod: 30s
   instanceSelector:
     matchLabels:
-      dashboards: "grafana"
+      dashboards: "grafana-prod"
   folder: {{ $jsonContent.folderTitle | quote }}
   json: >
 {{- .json | nindent 4 }}
