@@ -12,6 +12,7 @@ spec:
     matchLabels:
       dashboards: "grafana-prod"
   folder: {{ $folderName | quote }}
-  json: {{ $dashboardData.json | quote }}
+  json: {{ $dashboardData.json | squote }}
+---
 {{- end -}}
 {{- end -}}
