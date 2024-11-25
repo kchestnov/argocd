@@ -15,6 +15,9 @@ spec:
       - application: grafana-operator
         namespace: default
         targetRevision: HEAD
+      - application: grafana-crd
+        namespace: default
+        targetRevision: HEAD
   template:
     metadata:
       name: 'kchestnov-{{.application}}'
