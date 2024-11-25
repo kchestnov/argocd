@@ -1,21 +1,17 @@
-{{- range .Values.dashboards }}
-{{- $folderTitle := .folderTitle }}
-{{- $folderUid := .folderUid }}
-{{- range .dashboards }}
-{{- $jsonContent := .json | fromJson }}
-{{- $title := $jsonContent.title | lower | replace " " "-" }}
----
+{{- $dashboards := .Values.dashboards -}}
+{{- range $folderName, $folderData := $dashboards -}}
+{{- $folderUid := $folderData.folderUid -}}
+{{- range $dashboardName, $dashboardData := $folderData.dashboards -}}
 apiVersion: grafana.integreatly.org/v1beta1
 kind: GrafanaDashboard
 metadata:
-  name: {{ printf "%s-%s" $folderTitle $title }}
+  name: {{ $dashboardName | quote }}
 spec:
   resyncPeriod: 30s
   instanceSelector:
     matchLabels:
-      dashboards: grafana-prod
-  folder: {{ $folderTitle }}
-  json: >
-{{- .json | nindent 4 }}
-{{- end }}
-{{- end }}
+      dashboards: "grafana-prod"
+  folder: {{ $folderName | quote }}
+  json: {{ $dashboardData.json | quote }}
+{{- end -}}
+{{- end -}}
