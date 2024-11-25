@@ -1,128 +1,144 @@
 dashboards:
   example-folder:
-    folderUid: be4pknypj7oqob
     dashboards:
       kchestnov-dashboard-1:
+        json: "{\n  \"annotations\": {\n    \"list\": [\n      {\n        \"builtIn\"\
+          : 1,\n        \"datasource\": {\n          \"type\": \"grafana\",\n    \
+          \      \"uid\": \"-- Grafana --\"\n        },\n        \"enable\": true,\n\
+          \        \"hide\": true,\n        \"iconColor\": \"rgba(0, 211, 255, 1)\"\
+          ,\n        \"name\": \"Annotations & Alerts\",\n        \"type\": \"dashboard\"\
+          \n      }\n    ]\n  },\n  \"editable\": true,\n  \"fiscalYearStartMonth\"\
+          : 0,\n  \"graphTooltip\": 0,\n  \"id\": 468,\n  \"links\": [],\n  \"panels\"\
+          : [\n    {\n      \"datasource\": {\n        \"type\": \"datasource\",\n\
+          \        \"uid\": \"grafana\"\n      },\n      \"fieldConfig\": {\n    \
+          \    \"defaults\": {\n          \"color\": {\n            \"mode\": \"palette-classic\"\
+          \n          },\n          \"custom\": {\n            \"axisBorderShow\"\
+          : false,\n            \"axisCenteredZero\": false,\n            \"axisColorMode\"\
+          : \"text\",\n            \"axisLabel\": \"\",\n            \"axisPlacement\"\
+          : \"auto\",\n            \"barAlignment\": 0,\n            \"drawStyle\"\
+          : \"line\",\n            \"fillOpacity\": 0,\n            \"gradientMode\"\
+          : \"none\",\n            \"hideFrom\": {\n              \"legend\": false,\n\
+          \              \"tooltip\": false,\n              \"viz\": false\n     \
+          \       },\n            \"insertNulls\": false,\n            \"lineInterpolation\"\
+          : \"linear\",\n            \"lineWidth\": 1,\n            \"pointSize\"\
+          : 5,\n            \"scaleDistribution\": {\n              \"type\": \"linear\"\
+          \n            },\n            \"showPoints\": \"auto\",\n            \"\
+          spanNulls\": false,\n            \"stacking\": {\n              \"group\"\
+          : \"A\",\n              \"mode\": \"none\"\n            },\n           \
+          \ \"thresholdsStyle\": {\n              \"mode\": \"off\"\n            }\n\
+          \          },\n          \"mappings\": [],\n          \"thresholds\": {\n\
+          \            \"mode\": \"absolute\",\n            \"steps\": [\n       \
+          \       {\n                \"color\": \"green\",\n                \"value\"\
+          : null\n              },\n              {\n                \"color\": \"\
+          red\",\n                \"value\": 80\n              }\n            ]\n\
+          \          }\n        },\n        \"overrides\": []\n      },\n      \"\
+          gridPos\": {\n        \"h\": 8,\n        \"w\": 12,\n        \"x\": 0,\n\
+          \        \"y\": 0\n      },\n      \"id\": 1,\n      \"options\": {\n  \
+          \      \"legend\": {\n          \"calcs\": [],\n          \"displayMode\"\
+          : \"list\",\n          \"placement\": \"bottom\",\n          \"showLegend\"\
+          : true\n        },\n        \"tooltip\": {\n          \"mode\": \"single\"\
+          ,\n          \"sort\": \"none\"\n        }\n      },\n      \"title\": \"\
+          Panel Title\",\n      \"type\": \"timeseries\"\n    }\n  ],\n  \"schemaVersion\"\
+          : 39,\n  \"tags\": [],\n  \"templating\": {\n    \"list\": []\n  },\n  \"\
+          time\": {\n    \"from\": \"now-6h\",\n    \"to\": \"now\"\n  },\n  \"timepicker\"\
+          : {},\n  \"timezone\": \"browser\",\n  \"title\": \"kchestnov-dashboard-1\"\
+          ,\n  \"uid\": \"fe50gkfjmzmrkf\",\n  \"version\": 1,\n  \"weekStart\": \"\
+          \"\n}\n"
         uid: fe50gkfjmzmrkf
-        json: >
-          {
-            "annotations": {
-              "list": [
-                {
-                  "builtIn": 1,
-                  "datasource": {
-                    "type": "grafana",
-                    "uid": "-- Grafana --"
-                  },
-                  "enable": true,
-                  "hide": true,
-                  "iconColor": "rgba(0, 211, 255, 1)",
-                  "name": "Annotations & Alerts",
-                  "type": "dashboard"
-                }
-              ]
-            },
-            "editable": true,
-            "fiscalYearStartMonth": 0,
-            "graphTooltip": 0,
-            "id": 468,
-            "links": [],
-            "panels": [
-              {
-                "datasource": {
-                  "type": "datasource",
-                  "uid": "grafana"
-                },
-                "fieldConfig": {
-                  "defaults": {
-                    "color": {
-                      "mode": "palette-classic"
-                    },
-                    "custom": {
-                      "axisBorderShow": false,
-                      "axisCenteredZero": false,
-                      "axisColorMode": "text",
-                      "axisLabel": "",
-                      "axisPlacement": "auto",
-                      "barAlignment": 0,
-                      "drawStyle": "line",
-                      "fillOpacity": 0,
-                      "gradientMode": "none",
-                      "hideFrom": {
-                        "legend": false,
-                        "tooltip": false,
-                        "viz": false
-                      },
-                      "insertNulls": false,
-                      "lineInterpolation": "linear",
-                      "lineWidth": 1,
-                      "pointSize": 5,
-                      "scaleDistribution": {
-                        "type": "linear"
-                      },
-                      "showPoints": "auto",
-                      "spanNulls": false,
-                      "stacking": {
-                        "group": "A",
-                        "mode": "none"
-                      },
-                      "thresholdsStyle": {
-                        "mode": "off"
-                      }
-                    },
-                    "mappings": [],
-                    "thresholds": {
-                      "mode": "absolute",
-                      "steps": [
-                        {
-                          "color": "green",
-                          "value": null
-                        },
-                        {
-                          "color": "red",
-                          "value": 80
-                        }
-                      ]
-                    }
-                  },
-                  "overrides": []
-                },
-                "gridPos": {
-                  "h": 8,
-                  "w": 12,
-                  "x": 0,
-                  "y": 0
-                },
-                "id": 1,
-                "options": {
-                  "legend": {
-                    "calcs": [],
-                    "displayMode": "list",
-                    "placement": "bottom",
-                    "showLegend": true
-                  },
-                  "tooltip": {
-                    "mode": "single",
-                    "sort": "none"
-                  }
-                },
-                "title": "Panel Title",
-                "type": "timeseries"
-              }
-            ],
-            "schemaVersion": 39,
-            "tags": [],
-            "templating": {
-              "list": []
-            },
-            "time": {
-              "from": "now-6h",
-              "to": "now"
-            },
-            "timepicker": {},
-            "timezone": "browser",
-            "title": "kchestnov-dashboard-1",
-            "uid": "fe50gkfjmzmrkf",
-            "version": 1,
-            "weekStart": ""
-          }
+    folderUid: be4pknypj7oqob
+  sync-folder:
+    dashboards:
+      kchestnov-dashboard-1:
+        json:
+          annotations:
+            list:
+            - builtIn: 1
+              datasource:
+                type: grafana
+                uid: -- Grafana --
+              enable: true
+              hide: true
+              iconColor: rgba(0, 211, 255, 1)
+              name: Annotations & Alerts
+              type: dashboard
+          editable: true
+          fiscalYearStartMonth: 0
+          graphTooltip: 0
+          id: 468
+          links: []
+          panels:
+          - datasource:
+              type: datasource
+              uid: grafana
+            fieldConfig:
+              defaults:
+                color:
+                  mode: palette-classic
+                custom:
+                  axisBorderShow: false
+                  axisCenteredZero: false
+                  axisColorMode: text
+                  axisLabel: ''
+                  axisPlacement: auto
+                  barAlignment: 0
+                  drawStyle: line
+                  fillOpacity: 0
+                  gradientMode: none
+                  hideFrom:
+                    legend: false
+                    tooltip: false
+                    viz: false
+                  insertNulls: false
+                  lineInterpolation: linear
+                  lineWidth: 1
+                  pointSize: 5
+                  scaleDistribution:
+                    type: linear
+                  showPoints: auto
+                  spanNulls: false
+                  stacking:
+                    group: A
+                    mode: none
+                  thresholdsStyle:
+                    mode: 'off'
+                mappings: []
+                thresholds:
+                  mode: absolute
+                  steps:
+                  - color: green
+                    value: null
+                  - color: red
+                    value: 80
+              overrides: []
+            gridPos:
+              h: 8
+              w: 12
+              x: 0
+              y: 0
+            id: 1
+            options:
+              legend:
+                calcs: []
+                displayMode: list
+                placement: bottom
+                showLegend: true
+              tooltip:
+                mode: single
+                sort: none
+            title: Panel Title
+            type: timeseries
+          schemaVersion: 39
+          tags: []
+          templating:
+            list: []
+          time:
+            from: now-6h
+            to: now
+          timepicker: {}
+          timezone: browser
+          title: kchestnov-dashboard-1
+          uid: fe50gkfjmzmrkf
+          version: 2
+          weekStart: ''
+        uid: fe50gkfjmzmrkf
+    folderUid: de50nm7qz9f5sf
