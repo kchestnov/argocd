@@ -21,9 +21,10 @@ dashboards:
           {"mode": "single", "sort": "none"}, "xTickLabelRotation": 0, "xTickLabelSpacing":
           0}, "targets": [{"datasource": {"type": "datasource", "uid": "grafana"},
           "queryType": "randomWalk", "refId": "A"}], "title": "Panel Title", "type":
-          "barchart"}], "schemaVersion": 39, "tags": [], "templating": {"list": []},
-          "time": {"from": "now-6h", "to": "now"}, "timepicker": {}, "timezone": "browser",
-          "title": "walk", "uid": "ce51ddfss3mdcc", "version": 1, "weekStart": ""}'
+          "barchart"}], "schemaVersion": 39, "tags": ["v1.0.0"], "templating": {"list":
+          []}, "time": {"from": "now-6h", "to": "now"}, "timepicker": {}, "timezone":
+          "browser", "title": "walk", "uid": "ce51ddfss3mdcc", "version": 2, "weekStart":
+          ""}'
         uid: ce51ddfss3mdcc
     folderUid: ee51dc4vn9gqoe
   sync-folder:
