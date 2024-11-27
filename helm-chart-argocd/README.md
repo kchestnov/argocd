@@ -1,4 +1,4 @@
-# This is a placeholder if a helm chart
+# This is a placeholder not a helm chart
 
 Installation is not complex, just follow
 
