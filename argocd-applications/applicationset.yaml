@@ -7,26 +7,25 @@ spec:
   goTemplate: true
   goTemplateOptions: ["missingkey=error"]
   generators:
-  - list:
-      elements:
-      - application: alertmanager
-        namespace: default
-        targetRevision: HEAD
-      - application: grafana-operator
-        namespace: default
-        targetRevision: HEAD
-      - application: grafana-crd
-        namespace: default
-        targetRevision: HEAD
+  - git:
+      repoURL: https://github.com/kchestnov/argocd-examples-kchestnov
+      revision: main
+      directories:
+        - path: apps/*
   template:
     metadata:
-      name: 'kchestnov-{{.application}}'
+      name: '{{ path.basename }}'
     spec:
       project: default
       source:
         repoURL: https://github.com/kchestnov/argocd-examples-kchestnov
-        targetRevision: '{{.targetRevision}}'
-        path: 'helm-chart-{{.application}}'
+        targetRevision: 'HEAD'
+        path: '{{ path }}'
+      helm:
+        valueFiles:
+          - values.yaml
+          - "*-values.yaml"
+          
       destination:
         server: "https://kubernetes.default.svc"
-        namespace: '{{.namespace}}'
+        namespace: 'default'

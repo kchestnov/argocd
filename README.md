@@ -1,9 +1,12 @@
-# argocd
+# Argo CD Examples 
 Helm charts for testing, nothing fancy
 
-Each app I use will have chart pointint to original version (pinned) to add dependencies later
+Each app I use will have chart pointing to original version (pinned) to manage dependencies
+
 Each app is meant to be used in ArgoCD
 
-ArgoCD installation is not complex, couple of commands
+Personal Helm Repo:
+https://github.com/kchestnov/helm-charts
 
-I am adding export.sh to each help chart to simplify port-forwarding
+Released via GitHub Pages
+https://kchestnov.github.io/helm-charts

@@ -26,4 +26,6 @@ dependencies:
   - name: grafana-operator
     version: "v5.15.1"
     repository: "oci://ghcr.io/grafana/helm-charts"
-    
+  - name: grafana-operator-crds
+    version: "0.1.0"
+    repository: "https://kchestnov.github.io/helm-charts"
