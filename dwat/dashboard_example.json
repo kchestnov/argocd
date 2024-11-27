@@ -1,0 +1,280 @@
+{
+    "meta": {
+        "type": "db",
+        "canSave": True,
+        "canEdit": True,
+        "canAdmin": False,
+        "canStar": True,
+        "canDelete": True,
+        "slug": "kchestnov-dashboard-1",
+        "url": "/d/fe50gkfjmzmrkf/kchestnov-dashboard-1",
+        "expires": "0001-01-01T00:00:00Z",
+        "created": "2024-11-25T12:57:13Z",
+        "updated": "2024-11-25T14:16:21Z",
+        "updatedBy": "root",
+        "createdBy": "root",
+        "version": 2,
+        "hasAcl": False,
+        "isFolder": False,
+        "folderId": 469,
+        "folderUid": "de50nm7qz9f5sf",
+        "folderTitle": "sync-folder",
+        "folderUrl": "/dashboards/f/de50nm7qz9f5sf/sync-folder",
+        "provisioned": False,
+        "provisionedExternalId": "",
+        "annotationsPermissions": {
+            "dashboard": {
+                "canAdd": True,
+                "canEdit": True,
+                "canDelete": True
+            },
+            "organization": {
+                "canAdd": True,
+                "canEdit": True,
+                "canDelete": True
+            }
+        }
+    },
+    "dashboard": {
+        "annotations": {
+            "list": [
+                {
+                    "builtIn": 1,
+                    "datasource": {
+                        "type": "grafana",
+                        "uid": "-- Grafana --"
+                    },
+                    "enable": True,
+                    "hide": True,
+                    "iconColor": "rgba(0, 211, 255, 1)",
+                    "name": "Annotations & Alerts",
+                    "type": "dashboard"
+                }
+            ]
+        },
+        "editable": True,
+        "fiscalYearStartMonth": 0,
+        "graphTooltip": 0,
+        "id": 468,
+        "links": [],
+        "panels": [
+            {
+                "datasource": {
+                    "type": "datasource",
+                    "uid": "grafana"
+                },
+                "fieldConfig": {
+                    "defaults": {
+                        "color": {
+                            "mode": "palette-classic"
+                        },
+                        "custom": {
+                            "axisBorderShow": False,
+                            "axisCenteredZero": False,
+                            "axisColorMode": "text",
+                            "axisLabel": "",
+                            "axisPlacement": "auto",
+                            "barAlignment": 0,
+                            "drawStyle": "line",
+                            "fillOpacity": 0,
+                            "gradientMode": "none",
+                            "hideFrom": {
+                                "legend": False,
+                                "tooltip": False,
+                                "viz": False
+                            },
+                            "insertNulls": False,
+                            "lineInterpolation": "linear",
+                            "lineWidth": 1,
+                            "pointSize": 5,
+                            "scaleDistribution": {
+                                "type": "linear"
+                            },
+                            "showPoints": "auto",
+                            "spanNulls": False,
+                            "stacking": {
+                                "group": "A",
+                                "mode": "none"
+                            },
+                            "thresholdsStyle": {
+                                "mode": "off"
+                            }
+                        },
+                        "mappings": [],
+                        "thresholds": {
+                            "mode": "absolute",
+                            "steps": [
+                                {
+                                    "color": "green",
+                                    "value": None
+                                },
+                                {
+                                    "color": "red",
+                                    "value": 80
+                                }
+                            ]
+                        }
+                    },
+                    "overrides": []
+                },
+                "gridPos": {
+                    "h": 8,
+                    "w": 12,
+                    "x": 0,
+                    "y": 0
+                },
+                "id": 1,
+                "options": {
+                    "legend": {
+                        "calcs": [],
+                        "displayMode": "list",
+                        "placement": "bottom",
+                        "showLegend": True
+                    },
+                    "tooltip": {
+                        "mode": "single",
+                        "sort": "none"
+                    }
+                },
+                "title": "Panel Title",
+                "type": "timeseries"
+            }
+        ],
+        "schemaVersion": 39,
+        "tags": [],
+        "templating": {
+            "list": []
+        },
+        "time": {
+            "from": "now-6h",
+            "to": "now"
+        },
+        "timepicker": {},
+        "timezone": "browser",
+        "title": "kchestnov-dashboard-1",
+        "uid": "fe50gkfjmzmrkf",
+        "version": 2,
+        "weekStart": ""
+    }
+}
+GF: {
+    "annotations": {
+        "list": [
+            {
+                "builtIn": 1,
+                "datasource": {
+                    "type": "grafana",
+                    "uid": "-- Grafana --"
+                },
+                "enable": True,
+                "hide": True,
+                "iconColor": "rgba(0, 211, 255, 1)",
+                "name": "Annotations & Alerts",
+                "type": "dashboard"
+            }
+        ]
+    },
+    "editable": True,
+    "fiscalYearStartMonth": 0,
+    "graphTooltip": 0,
+    "id": 468,
+    "links": [],
+    "panels": [
+        {
+            "datasource": {
+                "type": "datasource",
+                "uid": "grafana"
+            },
+            "fieldConfig": {
+                "defaults": {
+                    "color": {
+                        "mode": "palette-classic"
+                    },
+                    "custom": {
+                        "axisBorderShow": False,
+                        "axisCenteredZero": False,
+                        "axisColorMode": "text",
+                        "axisLabel": "",
+                        "axisPlacement": "auto",
+                        "barAlignment": 0,
+                        "drawStyle": "line",
+                        "fillOpacity": 0,
+                        "gradientMode": "none",
+                        "hideFrom": {
+                            "legend": False,
+                            "tooltip": False,
+                            "viz": False
+                        },
+                        "insertNulls": False,
+                        "lineInterpolation": "linear",
+                        "lineWidth": 1,
+                        "pointSize": 5,
+                        "scaleDistribution": {
+                            "type": "linear"
+                        },
+                        "showPoints": "auto",
+                        "spanNulls": False,
+                        "stacking": {
+                            "group": "A",
+                            "mode": "none"
+                        },
+                        "thresholdsStyle": {
+                            "mode": "off"
+                        }
+                    },
+                    "mappings": [],
+                    "thresholds": {
+                        "mode": "absolute",
+                        "steps": [
+                            {
+                                "color": "green",
+                                "value": None
+                            },
+                            {
+                                "color": "red",
+                                "value": 80
+                            }
+                        ]
+                    }
+                },
+                "overrides": []
+            },
+            "gridPos": {
+                "h": 8,
+                "w": 12,
+                "x": 0,
+                "y": 0
+            },
+            "id": 1,
+            "options": {
+                "legend": {
+                    "calcs": [],
+                    "displayMode": "list",
+                    "placement": "bottom",
+                    "showLegend": True
+                },
+                "tooltip": {
+                    "mode": "single",
+                    "sort": "none"
+                }
+            },
+            "title": "Panel Title",
+            "type": "timeseries"
+        }
+    ],
+    "schemaVersion": 39,
+    "tags": [],
+    "templating": {
+        "list": []
+    },
+    "time": {
+        "from": "now-6h",
+        "to": "now"
+    },
+    "timepicker": {},
+    "timezone": "browser",
+    "title": "kchestnov-dashboard-1",
+    "uid": "fe50gkfjmzmrkf",
+    "version": 2,
+    "weekStart": ""
+}
