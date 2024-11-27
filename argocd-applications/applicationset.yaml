@@ -14,18 +14,18 @@ spec:
         - path: apps/*
   template:
     metadata:
-      name: '{{ path.basename }}'
+      name: "{{ .path.basename }}"
     spec:
       project: default
       source:
         repoURL: https://github.com/kchestnov/argocd-examples-kchestnov
         targetRevision: 'HEAD'
-        path: '{{ path }}'
-      helm:
-        valueFiles:
-          - values.yaml
-          - "*-values.yaml"
-          
+        path: "{{ .path.path }}"
+        helm:
+          valueFiles:
+            - values.yaml
+            - additional-values.yaml
+          ignoreMissingValueFiles: true
       destination:
         server: "https://kubernetes.default.svc"
         namespace: 'default'
