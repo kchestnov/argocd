@@ -17,8 +17,8 @@ grafana-operator-crds:
         "red", "value": 80}]}}, "overrides": []}, "gridPos": {"h": 8, "w": 12, "x":
         0, "y": 0}, "id": 1, "options": {"barRadius": 0, "barWidth": 0.97, "fullHighlight":
         false, "groupWidth": 0.7, "legend": {"calcs": [], "displayMode": "list", "placement":
-        "bottom", "showLegend": true}, "orientation": "auto", "showValue": "auto", "stacking":
-        "none", "tooltip": {"mode": "single", "sort": "none"}, "xTickLabelRotation":
+        "bottom", "showLegend": true}, "orientation": "auto", "showValue": "auto",
+        "stacking": "none", "tooltip": {"mode": "single", "sort": "none"}, "xTickLabelRotation":
         0, "xTickLabelSpacing": 0}, "targets": [{"datasource": {"type": "datasource",
         "uid": "grafana"}, "queryType": "randomWalk", "refId": "A"}], "title": "Panel
         Title", "type": "barchart"}], "schemaVersion": 39, "tags": ["v1.0.0"], "templating":
@@ -46,17 +46,48 @@ grafana-operator-crds:
         "none"}, "thresholdsStyle": {"mode": "off"}}, "mappings": [], "thresholds":
         {"mode": "absolute", "steps": [{"color": "green"}, {"color": "red", "value":
         80}]}}, "overrides": []}, "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0}, "id":
-        1, "options": {"legend": {"calcs": [], "displayMode": "list", "placement": "bottom",
-        "showLegend": true}, "tooltip": {"mode": "single", "sort": "none"}}, "targets":
-        [{"datasource": {"type": "datasource", "uid": "grafana"}, "queryType": "randomWalk",
-        "refId": "A"}], "title": "Panel Title", "type": "timeseries"}], "schemaVersion":
-        39, "tags": ["v0.0.2"], "templating": {"list": []}, "time": {"from": "now-6h",
-        "to": "now"}, "timepicker": {}, "timezone": "browser", "title": "dashboard in
-        sync folder 2 / also testing specfial symbols", "uid": "de577ddd7yfwgc", "version":
-        3, "weekStart": ""}'
+        1, "options": {"legend": {"calcs": [], "displayMode": "list", "placement":
+        "bottom", "showLegend": true}, "tooltip": {"mode": "single", "sort": "none"}},
+        "targets": [{"datasource": {"type": "datasource", "uid": "grafana"}, "queryType":
+        "randomWalk", "refId": "A"}], "title": "Panel Title", "type": "timeseries"}],
+        "schemaVersion": 39, "tags": ["v0.0.2"], "templating": {"list": []}, "time":
+        {"from": "now-6h", "to": "now"}, "timepicker": {}, "timezone": "browser",
+        "title": "dashboard in sync folder 2 / also testing specfial symbols", "uid":
+        "de577ddd7yfwgc", "version": 3, "weekStart": ""}'
       tags:
       - v0.0.2
       title: dashboard in sync folder 2 / also testing specfial symbols
+    ee5azlx59qvpce:
+      folder_title: General
+      folder_uid: general
+      json: '{"annotations": {"list": [{"builtIn": 1, "datasource": {"type": "grafana",
+        "uid": "-- Grafana --"}, "enable": true, "hide": true, "iconColor": "rgba(0,
+        211, 255, 1)", "name": "Annotations & Alerts", "type": "dashboard"}]}, "description":
+        "\\0134s \\124s", "editable": true, "fiscalYearStartMonth": 0, "graphTooltip":
+        0, "id": 475, "links": [], "panels": [{"datasource": {"type": "grafana", "uid":
+        "grafana"}, "fieldConfig": {"defaults": {"color": {"mode": "palette-classic-by-name"},
+        "custom": {"axisBorderShow": false, "axisCenteredZero": true, "axisColorMode":
+        "text", "axisLabel": "", "axisPlacement": "hidden", "axisSoftMax": 1, "axisSoftMin":
+        4, "barAlignment": 1, "drawStyle": "bars", "fillOpacity": 33, "gradientMode":
+        "none", "hideFrom": {"legend": false, "tooltip": false, "viz": false}, "insertNulls":
+        false, "lineInterpolation": "linear", "lineWidth": 5, "pointSize": 5, "scaleDistribution":
+        {"linearThreshold": 12431, "log": 2, "type": "symlog"}, "showPoints": "never",
+        "spanNulls": false, "stacking": {"group": "A", "mode": "normal"}, "thresholdsStyle":
+        {"mode": "off"}}, "decimals": 15, "displayName": "234", "mappings": [], "noValue":
+        "4", "thresholds": {"mode": "absolute", "steps": [{"color": "green", "value":
+        null}, {"color": "red", "value": 80}]}}, "overrides": []}, "gridPos": {"h":
+        8, "w": 12, "x": 0, "y": 0}, "id": 1, "options": {"legend": {"calcs": ["last"],
+        "displayMode": "list", "placement": "bottom", "showLegend": true}, "tooltip":
+        {"hoverProximity": 234, "maxHeight": 234234, "maxWidth": 2342, "mode": "single",
+        "sort": "none"}}, "targets": [{"datasource": {"type": "datasource", "uid":
+        "grafana"}, "queryType": "randomWalk", "refId": "A"}], "title": "Panel Title",
+        "type": "timeseries"}], "schemaVersion": 39, "tags": ["v0.0.1"], "templating":
+        {"list": []}, "time": {"from": "now-6h", "to": "now"}, "timepicker": {}, "timezone":
+        "browser", "title": "%%!!%!%\\n\\n", "uid": "ee5azlx59qvpce", "version": 2,
+        "weekStart": ""}'
+      tags:
+      - v0.0.1
+      title: '%%!!%!%\n\n'
     fe40gkfjmzmrkf:
       folder_title: sync-folder
       folder_uid: de50nm7qz9f5sf
@@ -68,19 +99,19 @@ grafana-operator-crds:
         {"defaults": {"color": {"mode": "palette-classic"}, "custom": {"axisBorderShow":
         false, "axisCenteredZero": false, "axisColorMode": "text", "axisLabel": "",
         "axisPlacement": "auto", "barAlignment": 0, "drawStyle": "line", "fillOpacity":
-        0, "gradientMode": "none", "hideFrom": {"legend": false, "tooltip": false, "viz":
-        false}, "insertNulls": false, "lineInterpolation": "linear", "lineWidth": 1,
-        "pointSize": 5, "scaleDistribution": {"type": "linear"}, "showPoints": "auto",
-        "spanNulls": false, "stacking": {"group": "A", "mode": "none"}, "thresholdsStyle":
+        0, "gradientMode": "none", "hideFrom": {"legend": false, "tooltip": false,
+        "viz": false}, "insertNulls": false, "lineInterpolation": "linear", "lineWidth":
+        1, "pointSize": 5, "scaleDistribution": {"type": "linear"}, "showPoints":
+        "auto", "spanNulls": false, "stacking": {"group": "A", "mode": "none"}, "thresholdsStyle":
         {"mode": "off"}}, "mappings": [], "thresholds": {"mode": "absolute", "steps":
         [{"color": "green", "value": null}, {"color": "red", "value": 80}]}}, "overrides":
         []}, "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0}, "id": 1, "options": {"legend":
-        {"calcs": [], "displayMode": "list", "placement": "bottom", "showLegend": true},
-        "tooltip": {"mode": "single", "sort": "none"}}, "title": "Panel Title", "type":
-        "timeseries"}], "schemaVersion": 39, "tags": [], "templating": {"list": []},
-        "time": {"from": "now-6h", "to": "now"}, "timepicker": {}, "timezone": "browser",
-        "title": "dashboard-2", "uid": "fe40gkfjmzmrkf", "version": 2, "weekStart":
-        ""}'
+        {"calcs": [], "displayMode": "list", "placement": "bottom", "showLegend":
+        true}, "tooltip": {"mode": "single", "sort": "none"}}, "title": "Panel Title",
+        "type": "timeseries"}], "schemaVersion": 39, "tags": [], "templating": {"list":
+        []}, "time": {"from": "now-6h", "to": "now"}, "timepicker": {}, "timezone":
+        "browser", "title": "dashboard-2", "uid": "fe40gkfjmzmrkf", "version": 2,
+        "weekStart": ""}'
       tags: v0.0.1
       title: dashboard-2
     fe50gkfjmzmrkf:
@@ -94,18 +125,18 @@ grafana-operator-crds:
         {"defaults": {"color": {"mode": "palette-classic"}, "custom": {"axisBorderShow":
         false, "axisCenteredZero": false, "axisColorMode": "text", "axisLabel": "",
         "axisPlacement": "auto", "barAlignment": 0, "drawStyle": "line", "fillOpacity":
-        0, "gradientMode": "none", "hideFrom": {"legend": false, "tooltip": false, "viz":
-        false}, "insertNulls": false, "lineInterpolation": "linear", "lineWidth": 1,
-        "pointSize": 5, "scaleDistribution": {"type": "linear"}, "showPoints": "auto",
-        "spanNulls": false, "stacking": {"group": "A", "mode": "none"}, "thresholdsStyle":
+        0, "gradientMode": "none", "hideFrom": {"legend": false, "tooltip": false,
+        "viz": false}, "insertNulls": false, "lineInterpolation": "linear", "lineWidth":
+        1, "pointSize": 5, "scaleDistribution": {"type": "linear"}, "showPoints":
+        "auto", "spanNulls": false, "stacking": {"group": "A", "mode": "none"}, "thresholdsStyle":
         {"mode": "off"}}, "mappings": [], "thresholds": {"mode": "absolute", "steps":
         [{"color": "green", "value": null}, {"color": "red", "value": 80}]}}, "overrides":
         []}, "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0}, "id": 1, "options": {"legend":
-        {"calcs": [], "displayMode": "list", "placement": "bottom", "showLegend": true},
-        "tooltip": {"mode": "single", "sort": "none"}}, "title": "Panel Title", "type":
-        "timeseries"}], "schemaVersion": 39, "tags": [], "templating": {"list": []},
-        "time": {"from": "now-6h", "to": "now"}, "timepicker": {}, "timezone": "browser",
-        "title": "dashboard-1", "uid": "fe50gkfjmzmrkf", "version": 2, "weekStart":
-        ""}'
+        {"calcs": [], "displayMode": "list", "placement": "bottom", "showLegend":
+        true}, "tooltip": {"mode": "single", "sort": "none"}}, "title": "Panel Title",
+        "type": "timeseries"}], "schemaVersion": 39, "tags": [], "templating": {"list":
+        []}, "time": {"from": "now-6h", "to": "now"}, "timepicker": {}, "timezone":
+        "browser", "title": "dashboard-1", "uid": "fe50gkfjmzmrkf", "version": 2,
+        "weekStart": ""}'
       tags: v0.0.1
       title: dashboard-1
