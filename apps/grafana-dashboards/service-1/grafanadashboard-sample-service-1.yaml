@@ -8,7 +8,7 @@ spec:
   resyncPeriod: 30s
   instanceSelector:
     matchLabels:
-      dashboards: grafana-prod
+      dashboards: grafana-static-prod
   json: >
     {
     "id": null,
