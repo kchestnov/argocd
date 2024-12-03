@@ -14,7 +14,7 @@ spec:
     "id": null,
     "title": "Simple Dashboard 2",
     "uid": "de5oxn5bdzc222",
-    "tags": [],
+    "tags": ["sync","v1.0.0"],
     "style": "dark",
     "timezone": "browser",
     "editable": true,
