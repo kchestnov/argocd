@@ -138,11 +138,11 @@ grafana-operator-crds:
         true}, "tooltip": {"mode": "single", "sort": "none"}}, "targets": [{"datasource":
         {"type": "datasource", "uid": "grafana"}, "queryType": "randomWalk", "refId":
         "A"}], "title": "Panel Title", "type": "timeseries"}], "schemaVersion": 39,
-        "tags": ["version=1.0.0"], "templating": {"list": []}, "time": {"from": "now-6h",
+        "tags": ["version=2.0.0"], "templating": {"list": []}, "time": {"from": "now-6h",
         "to": "now"}, "timepicker": {}, "timezone": "browser", "title": "demo", "uid":
-        "de5t1sxs50oaod", "version": 2, "weekStart": ""}'
+        "de5t1sxs50oaod", "version": 3, "weekStart": ""}'
       tags:
-      - version=1.0.0
+      - version=2.0.0
       title: demo
     ee5azlx59qvpce:
       folder_title: General
