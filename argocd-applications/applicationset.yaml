@@ -29,3 +29,31 @@ spec:
       destination:
         server: "https://kubernetes.default.svc"
         namespace: 'default'
+---
+apiVersion: argoproj.io/v1alpha1
+kind: ApplicationSet
+metadata:
+  name: local-dev-directory
+  namespace: argocd
+spec:
+  goTemplate: true
+  goTemplateOptions: ["missingkey=error"]
+  generators:
+  - list:
+      elements:
+      - path: apps/grafana-dashboards
+        name: grafana-dashboards
+  template:
+    metadata:
+      name: "{{ .name }}"
+    spec:
+      project: default
+      source:
+        repoURL: https://github.com/kchestnov/argocd-examples-kchestnov
+        targetRevision: 'HEAD'
+        path: "{{ .path }}"
+        directory:
+          recurse: true
+      destination:
+        server: "https://kubernetes.default.svc"
+        namespace: 'default'
