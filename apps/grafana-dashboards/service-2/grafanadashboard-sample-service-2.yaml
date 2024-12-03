@@ -4,7 +4,7 @@ metadata:
   name: grafanadashboard-sample-service-2
   namespace: default
 spec:
-folder: service-2
+  folder: service-2
   resyncPeriod: 30s
   instanceSelector:
     matchLabels:
