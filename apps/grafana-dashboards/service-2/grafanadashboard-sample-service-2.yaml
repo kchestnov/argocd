@@ -4,6 +4,7 @@ metadata:
   name: grafanadashboard-sample-service-2
   namespace: default
 spec:
+folder: service-2
   resyncPeriod: 30s
   instanceSelector:
     matchLabels:
@@ -11,7 +12,8 @@ spec:
   json: >
     {
     "id": null,
-    "title": "Simple Dashboard",
+    "title": "Simple Dashboard 1",
+    "uid": "de5oxn5bdzc111"
     "tags": [],
     "style": "dark",
     "timezone": "browser",
