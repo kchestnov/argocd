@@ -13,7 +13,7 @@ folder: service-2
     {
     "id": null,
     "title": "Simple Dashboard 1",
-    "uid": "de5oxn5bdzc111"
+    "uid": "de5oxn5bdzc111",
     "tags": [],
     "style": "dark",
     "timezone": "browser",
