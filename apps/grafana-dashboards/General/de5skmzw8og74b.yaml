@@ -30,4 +30,4 @@ spec:
     "version=1.0.0"], "templating": {"list": []}, "time": {"from": "now-6h", "to":
     "now"}, "timepicker": {}, "timezone": "browser", "title": "testing tags Copy",
     "uid": "de5skmzw8og74b", "version": 3, "weekStart": ""}'
-  resyncPeriod: ' 30s'
+  resyncPeriod: '30s'
