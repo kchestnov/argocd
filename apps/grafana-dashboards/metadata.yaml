@@ -17,3 +17,9 @@ example_uid:
   folder_uid: ee51dc4vn9gqoe
   tags: []
   title: example
+fe5wgldzzfmrkc:
+  folder_title: demo-folder
+  tags:
+  - folder=demo-folder
+  - version=1.0.0
+  title: demo-2
