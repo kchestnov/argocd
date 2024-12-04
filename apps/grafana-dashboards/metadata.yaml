@@ -1,6 +1,11 @@
+de5t1sxs50oaod:
+  folder_title: General
+  folder_uid: general
+  tags:
+  - version=2.0.0
+  title: demo
 example_uid:
-  title: example
   folder_title: production
   folder_uid: ee51dc4vn9gqoe
   tags: []
-  
+  title: example
