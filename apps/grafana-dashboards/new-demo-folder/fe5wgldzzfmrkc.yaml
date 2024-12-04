@@ -4,7 +4,7 @@ metadata:
   name: fe5wgldzzfmrkc
   namespace: default
 spec:
-  folder: demo-folder
+  folder: new-demo-folder
   instanceSelector:
     matchLabels:
       dashboards: grafana-static-prod
@@ -26,7 +26,7 @@ spec:
     true}, "tooltip": {"mode": "single", "sort": "none"}}, "targets": [{"datasource":
     {"type": "datasource", "uid": "grafana"}, "queryType": "randomWalk", "refId":
     "A"}], "title": "Panel Title", "type": "timeseries"}], "schemaVersion": 39, "tags":
-    ["version=1.0.0", "folder=demo-folder"], "templating": {"list": []}, "time": {"from":
-    "now-6h", "to": "now"}, "timepicker": {}, "timezone": "browser", "title": "demo-2",
-    "uid": "fe5wgldzzfmrkc", "version": 3, "weekStart": ""}'
+    ["version=1.0.0", "folder=new-demo-folder"], "templating": {"list": []}, "time":
+    {"from": "now-6h", "to": "now"}, "timepicker": {}, "timezone": "browser", "title":
+    "demo-2", "uid": "fe5wgldzzfmrkc", "version": 5, "weekStart": ""}'
   resyncPeriod: 30s
