@@ -1,6 +1,13 @@
+de5skmzw8og74b:
+  folder_title: General
+  folder_uid: general
+  tags:
+  - ecm
+  - prod
+  - version=1.0.0
+  title: testing tags Copy
 example_uid:
-  title: example
   folder_title: production
   folder_uid: ee51dc4vn9gqoe
   tags: []
-  
+  title: example
