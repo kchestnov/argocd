@@ -6,6 +6,12 @@ de5skmzw8og74b:
   - prod
   - version=1.0.0
   title: testing tags Copy
+de5t1sxs50oaod:
+  folder_title: my-service-1
+  tags:
+  - folder=my-service-1
+  - version=3.0.0
+  title: demo
 example_uid:
   folder_title: production
   folder_uid: ee51dc4vn9gqoe
